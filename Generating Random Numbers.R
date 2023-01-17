@@ -28,12 +28,12 @@ rnorm(5)
 set.seed(1)
 rnorm(5)
 
-## Generating Possion random data (mean is roughly equal to the rate)
-## Generate 10 Possion random variables with a rate of 1 
+## Generating Poisson random data (mean is roughly equal to the rate)
+## Generate 10 Poisson random variables with a rate of 1 
 rpois(10,1)
-## Generate 10 Possion random variables with a rate of 2
+## Generate 10 Poisson random variables with a rate of 2
 rpois(10,2)
-## Generate 10 Possion random variables with a rate of 20
+## Generate 10 Poisson random variables with a rate of 20
 rpois(10,20)
 
 ## Evaluate the cumulative distribution for poisson random data 
